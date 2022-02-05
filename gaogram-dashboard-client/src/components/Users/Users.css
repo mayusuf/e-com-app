@@ -1,0 +1,21 @@
+.users-list{
+    margin-top: 2rem;
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+}
+
+
+.image-size{
+    width: 8rem;
+    height: 8rem;
+}
+
+@media only screen and (max-width: 932px){
+    .users-list{
+        grid-template-columns: 1fr !important;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    
+}
